@@ -6,11 +6,9 @@ It tracks each application, company, role, status, dates, notes, salary info, an
 
 This started as a simple personal workflow tool and became a small AI-assisted prototype project. I used it to practice moving quickly from a real problem into a working browser-based app.
 
-<br><br>
+<br>
 
 # Screenshots
-
-<br><br>
 
 ### Dashboard - Everything you need to scan quickly all in one place
 
