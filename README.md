@@ -11,7 +11,6 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 # Screenshots
 
 ## Dashboard - Everything you need to scan quickly all in one place
-<br>
 
 ### Light Mode
 
@@ -24,48 +23,62 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 <br><br>
 
 ## Pipeline View - Kanban-style cards that drag and drop to change status
-<br>
-###Light Mode
+
+### Light Mode
 
 ![Pipeline light mode](screenshots/pipelinelight.png)
+
 <br>
-###Dark Mode
+
+### Dark Mode
 
 ![Pipeline dark mode](screenshots/pipelinedark.png)
 
 <br><br>
 
 ## Table View - If you prefer adding information spreadsheet-style
+
 <br>
-###Light Mode
+
+### Light Mode
 
 ![Table light mode](screenshots/tablelight.png)
+
 <br>
-###Dark Mode
+
+### Dark Mode
 
 ![Table dark mode](screenshots/tabledark.png)
 
-###<br><br>
+<br><br>
 
 ## Card View - For easy sorting and quick overviews
+
 <br>
-###Light Mode
+
+### Light Mode
 
 ![Cards light mode](screenshots/cardslight.png)
+
 <br>
-###Dark Mode
+
+### Dark Mode
 
 ![Cards dark mode](screenshots/cardsdark.png)
 
 <br><br>
 
 ## Add Job - with auto-fill roles from previous entries and pre-filled dropdowns
+
 <br>
-###Light Mode
+
+### Light Mode
 
 ![Add job light mode](screenshots/addlight.png)
+
 <br>
-###Dark Mode
+
+### Dark Mode
 
 ![Add job dark mode](screenshots/adddark.png)
 
