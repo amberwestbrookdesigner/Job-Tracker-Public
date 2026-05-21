@@ -13,11 +13,11 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 ## Dashboard - Everything you need to scan quickly all in one place
 <br>
 
-###Light Mode
+### Light Mode
 
 ![Dashboard light mode](screenshots/dashboardlight.png)
 <br>
-###Dark Mode
+### Dark Mode
 
 ![Dashboard dark mode](screenshots/dashdark.png)
 
