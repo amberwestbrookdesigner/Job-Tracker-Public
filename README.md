@@ -8,12 +8,12 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ## What it does
 
-Tracks job applications and current status  
-Shows overall application stats in a dashboard  
-Supports table, card, and pipeline views  
-Opens a detail drawer for editing applications  
-Saves data locally in the browser  
-Runs as a static site with no build step  
+- Tracks job applications and current status  
+- Shows overall application stats in a dashboard  
+- Supports table, card, and pipeline views  
+- Opens a detail drawer for editing applications  
+- Saves data locally in the browser  
+- Runs as a static site with no build step  
 
 ## Why I built it
 
