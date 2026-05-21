@@ -6,6 +6,8 @@ It tracks each application, company, role, status, dates, notes, salary info, an
 
 This started as a simple personal workflow tool and became a small AI-assisted prototype project. I used it to practice moving quickly from a real problem into a working browser-based app.
 
+<br><br>
+
 ## Screenshots
 
 ### Dashboard - Everything you need to scan quickly all in one place
@@ -14,7 +16,7 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ![Dashboard dark mode](screenshots/dashdark.png)
 
-
+<br><br>
 
 ### Pipeline View - Kanban-style cards that drag and drop to change status
 
@@ -22,7 +24,7 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ![Pipeline dark mode](screenshots/pipelinedark.png)
 
-
+<br><br>
 
 ### Table View - If you prefer adding information spreadsheet-style
 
@@ -30,7 +32,7 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ![Table dark mode](screenshots/tabledark.png)
 
-
+<br><br>
 
 ### Card View - For easy sorting and quick overviews
 
@@ -38,7 +40,7 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ![Cards dark mode](screenshots/cardsdark.png)
 
-
+<br><br>
 
 ## What it does
 
