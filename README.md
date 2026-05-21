@@ -14,11 +14,15 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ![Dashboard dark mode](screenshots/dashdark.png)
 
+
+
 ### Pipeline View - Kanban-style cards that drag and drop to change status
 
 ![Pipeline light mode](screenshots/pipelinelight.png)
 
 ![Pipeline dark mode](screenshots/pipelinedark.png)
+
+
 
 ### Table View - If you prefer adding information spreadsheet-style
 
@@ -26,11 +30,15 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 ![Table dark mode](screenshots/tabledark.png)
 
+
+
 ### Card View - For easy sorting and quick overviews
 
 ![Cards light mode](screenshots/cardslight.png)
 
 ![Cards dark mode](screenshots/cardsdark.png)
+
+
 
 ## What it does
 
