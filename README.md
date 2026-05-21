@@ -8,7 +8,9 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 <br><br>
 
-## Screenshots
+# Screenshots
+
+<br><br>
 
 ### Dashboard - Everything you need to scan quickly all in one place
 
