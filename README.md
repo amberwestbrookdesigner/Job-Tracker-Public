@@ -30,7 +30,7 @@ I needed a better way to manage my own job search without relying on a spreadshe
 
 This helped me become faster and more efficient with rapid prototyping, local data storage, component organization, and using AI as part of a practical design and build workflow. It also helped me think through how dashboards and status-based tools can reduce mental load when a process has a lot of moving pieces. After using it for a week or two I found quite a bit that needed to change, so I redesigned a large chunk of it to make it easier to use with search, card organization, and hierarchy of filters and dashboard data. I also added dark mode.
 
-<br><br>
+<br>
 
 # Screenshots
 
