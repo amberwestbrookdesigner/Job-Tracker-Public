@@ -42,6 +42,14 @@ This started as a simple personal workflow tool and became a small AI-assisted p
 
 <br><br>
 
+### Add Job - with auto-fill roles from previous entries and pre-filled dropdowns
+
+![Add job light mode](screenshots/addlight.png)
+
+![Add job dark mode](screenshots/adddark.png)
+
+<br><br>
+
 ## What it does
 
 Tracks job applications and current status  
@@ -65,9 +73,3 @@ I needed a better way to manage my own job search without relying on a spreadshe
 ## What I learned
 
 This helped me become faster and more efficient with rapid prototyping, local data storage, component organization, and using AI as part of a practical design and build workflow. It also helped me think through how dashboards and status-based tools can reduce mental load when a process has a lot of moving pieces. After using it for a week or two I found quite a bit that needed to change, so I redesigned a large chunk of it to make it easier to use with search, card organization, and hierarchy of filters and dashboard data. I also added dark mode.
-
-### Add Job - with auto-fill roles from previous entries and pre-filled dropdowns
-
-![Add job light mode](screenshots/addlight.png)
-
-![Add job dark mode](screenshots/adddark.png)
