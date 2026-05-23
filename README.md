@@ -12,6 +12,8 @@ Appliclick was designed to reduce cognitive load during one of the most stressfu
 
 This project became a full product design exercise focused on workflow clarity, emotional UX, scalable organization, responsive interaction patterns, and rapid iteration from real-world usage.
 
+- This repository contains an earlier personal prototype and wireframing version of the project. The current production version, including the latest features, architecture, and database implementation, remains private.
+
 <br>
 
 ![Dashboard light](screenshots/dashboard-light.png)
