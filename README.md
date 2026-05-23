@@ -1,108 +1,285 @@
-# Job Tracker
+# Appliclick
 
-A personal job application tracker I built to keep my job search organized.
+Track every application without the spreadsheet chaos.
 
-It tracks each application, company, role, status, dates, notes, salary info, and follow-up reminders. It also includes a dashboard so I can quickly see overall stats, progress, patterns, and where each opportunity stands.
+Appliclick is a job search management platform I designed and built after getting buried under tabs, spreadsheets, follow-up reminders, recruiter messages, salary ranges, portfolio versions, and application statuses during my own job search.
 
-This started as a simple personal workflow tool and became a small AI-assisted prototype project. I used it to practice moving quickly from a real problem into a working browser-based app.
+What started as a personal survival tool quickly exposed a larger UX problem.
 
-## What it does
+Most job trackers are either rigid spreadsheet clones, overly corporate CRM tools, visually overwhelming, or emotionally exhausting to use every day.
 
-- Tracks job applications and current status  
-- Shows overall application stats in a dashboard  
-- Supports table, card, and pipeline views  
-- Opens a detail drawer for editing applications  
-- Saves data locally in the browser  
-- Runs as a static site with no build step  
+Appliclick was designed to reduce cognitive load during one of the most stressful workflows people go through.
 
-## Why I built it
-
-I needed a better way to manage my own job search without relying on a spreadsheet. I wanted something simple, visual, and fast that could help me track applications, see patterns, and stay organized.
-
-## Tools used
-
-- HTML, CSS, React, and JavaScript for the code  
-- Vercel v0 for the initial design and prototype  
-- ChatGPT, Claude, and VS Code for later manual code edits  
-- Cloudflare and Supabase for deployment and cloud data storage  
-
-## What I learned
-
-This helped me become faster and more efficient with rapid prototyping, local data storage, component organization, and using AI as part of a practical design and build workflow. It also helped me think through how dashboards and status-based tools can reduce mental load when a process has a lot of moving pieces. After using it for a week or two I found quite a bit that needed to change, so I redesigned a large chunk of it to make it easier to use with search, card organization, and hierarchy of filters and dashboard data. I also added dark mode.
+This project became a full product design exercise focused on workflow clarity, emotional UX, scalable organization, responsive interaction patterns, and rapid iteration from real-world usage.
 
 <br>
 
-# Screenshots
-
-## Dashboard - Everything you need to scan quickly all in one place
-
-### Light Mode
-
-![Dashboard light mode](screenshots/dashboardlight.png)
-<br>
-### Dark Mode
-
-![Dashboard dark mode](screenshots/dashdark.png)
+![Dashboard light](screenshots/dashboard-light.png)
 
 <br><br>
 
-## Pipeline View - Kanban-style cards that drag and drop to change status
+# The Problem
 
-### Light Mode
+Job searching creates fragmented mental overhead.
 
-![Pipeline light mode](screenshots/pipelinelight.png)
+Applications live across LinkedIn, Greenhouse, Lever, Gmail, recruiter messages, PDFs, resumes, notes apps, salary spreadsheets, calendars, and browser tabs.
+
+After enough applications, the process becomes difficult to mentally manage.
+
+Which companies ghosted?
+
+Which roles need follow-up?
+
+Which resume version was used?
+
+Which applications are still active?
+
+Which jobs are worth emotional energy?
+
+Which ones are already dead?
+
+I originally built Appliclick because I was experiencing this problem myself in real time.
+
+The goal was not just to track applications.
+
+The goal was to reduce anxiety through better organization, visibility, hierarchy, and interaction design.
 
 <br>
 
-### Dark Mode
+# My Role
 
-![Pipeline dark mode](screenshots/pipelinedark.png)
+End-to-end product design and development.
+
+I defined the product direction, designed the interaction model, built the UI system, structured the information architecture, created responsive layouts, implemented the frontend, iterated on UX through daily personal usage, refined workflows based on real friction points, and handled deployment and database integration.
+
+This was not a static mockup project.
+
+It became a functioning product used daily during my own active job search.
+
+<br>
+
+# Design Goals
+
+## Reduce cognitive overload
+
+The interface prioritizes fast scanning, clear hierarchy, and minimal friction when reviewing dozens or hundreds of active opportunities.
+
+## Support different mental models
+
+Some users think in spreadsheets.
+
+Some think visually.
+
+Some think in workflow stages.
+
+Instead of forcing a single organizational system, Appliclick supports multiple interchangeable views for the same data.
+
+## Make stressful workflows feel manageable
+
+The product intentionally avoids dense enterprise UI patterns in favor of calmer spacing, clearer prioritization, and emotionally aware labeling.
+
+Features like Needs a Nudge, Dead Zone, status visibility, recent activity, and dashboard summaries were designed to reduce ambiguity during long hiring cycles.
+
+## Build fast and iterate from real use
+
+Because I was actively using the product every day, friction surfaced quickly and led directly into redesigns and workflow improvements.
+
+<br>
+
+# Landing Experience
+
+The logged-out experience focuses on clarity, emotional reassurance, and reducing intimidation during onboarding.
+
+Rather than positioning the product as another productivity dashboard, the messaging focuses on reducing stress and restoring visibility during the hiring process.
+
+<br>
+
+## Homepage
+
+![Landing page](screenshots/logged-out-appliclick-1.png)
+
+<br>
+
+## Organization and workflow messaging
+
+![Workflow messaging](screenshots/logged-out-appliclick-2.png)
+
+<br>
+
+## Flexible views and workflow adaptation
+
+![View system](screenshots/logged-out-appliclick-3.png)
+
+<br>
+
+## Pricing and conversion flow
+
+![Pricing](screenshots/logged-out-appliclick-4.png)
 
 <br><br>
 
-## Table View - If you prefer adding information spreadsheet-style
+# Dashboard
+
+The dashboard was designed to answer the most important questions immediately.
+
+How many active opportunities still exist?
+
+What is actually progressing?
+
+What salary ranges am I targeting?
+
+Which companies need follow-up?
+
+Which applications are likely dead?
+
+How healthy is the pipeline overall?
+
+The challenge was balancing dense information without creating visual exhaustion.
+
+I focused heavily on hierarchy, scanability, spacing, grouping, emotional clarity, responsive behavior, and quick-glance metrics.
 
 <br>
 
-### Light Mode
+## Dark Mode
 
-![Table light mode](screenshots/tablelight.png)
+![Dashboard dark](screenshots/dashboard-dark.png)
 
 <br>
 
-### Dark Mode
+## Light Mode
 
-![Table dark mode](screenshots/tabledark.png)
+![Dashboard light](screenshots/dashboard-light.png)
 
 <br><br>
 
-## Card View - For easy sorting and quick overviews
+# Pipeline View
+
+The pipeline view was designed for users who think spatially and process progress visually.
+
+Applications can be dragged between stages with a kanban-style interaction model, allowing rapid status updates without opening detailed forms.
+
+One major challenge was preventing the interface from becoming visually noisy once columns filled with large numbers of cards.
+
+This led to multiple iterations around card density, spacing, overflow behavior, drag targets, hierarchy, and responsive stacking.
 
 <br>
 
-### Light Mode
+## Dark Mode
 
-![Cards light mode](screenshots/cardslight.png)
+![Pipeline dark](screenshots/pipeline-dark.png)
 
 <br>
 
-### Dark Mode
+## Light Mode
 
-![Cards dark mode](screenshots/cardsdark.png)
+![Pipeline light](screenshots/pipeline-light.png)
 
 <br><br>
 
-## Add Job - with auto-fill roles from previous entries and pre-filled dropdowns
+# Table View
+
+Some workflows still work best in structured rows.
+
+The table view was designed for fast high-volume editing with spreadsheet-style interaction patterns while still maintaining readability and hierarchy.
+
+This became especially important once application counts passed 100+ entries.
+
+The challenge here was balancing data density, readability, filtering, responsive behavior, edit speed, and visual fatigue.
 
 <br>
 
-### Light Mode
+## Dark Mode
 
-![Add job light mode](screenshots/addlight.png)
+![Table dark](screenshots/table-dark.png)
 
 <br>
 
-### Dark Mode
+## Light Mode
 
-![Add job dark mode](screenshots/adddark.png)
+![Table light](screenshots/table-light.png)
 
+<br><br>
+
+# Card View
+
+The card view focuses on quick scanning, sorting, and lightweight browsing.
+
+This mode was designed for users who want more context than a spreadsheet provides without the heavier structure of kanban workflows.
+
+Cards prioritize role visibility, company recognition, salary visibility, status clarity, note access, and fast scanning.
+
+<br>
+
+## Dark Mode
+
+![Card dark](screenshots/card-dark.png)
+
+<br>
+
+## Light Mode
+
+![Card light](screenshots/card-light.png)
+
+<br><br>
+
+# Add Job Flow
+
+The add flow was optimized for speed because repetitive data entry becomes frustrating extremely quickly during active application periods.
+
+The experience includes reusable role suggestions, pre-filled dropdowns, fast keyboard-friendly entry, simplified hierarchy, and minimized friction.
+
+This flow went through multiple revisions after daily use exposed repetitive interaction pain points.
+
+<br>
+
+## Dark Mode
+
+![Add dark](screenshots/add-dark.png)
+
+<br>
+
+## Light Mode
+
+![Add light](screenshots/add-light.png)
+
+<br><br>
+
+# Technical Approach
+
+Appliclick was built using React, JavaScript, HTML, CSS, Supabase, Cloudflare, and AI-assisted prototyping workflows.
+
+The project started as a rapid prototype and evolved into a significantly more refined system through iterative redesigns, restructuring, and usability improvements.
+
+AI tools accelerated implementation speed, but the core product thinking, workflow architecture, interaction design, prioritization, and refinement decisions were driven manually through real-world usage and iteration.
+
+<br>
+
+# What I Learned
+
+This project fundamentally changed how I think about product design.
+
+Building and using my own product daily exposed problems that static mockups never reveal.
+
+Interaction fatigue.
+
+Workflow bottlenecks.
+
+Hierarchy failures.
+
+Emotional friction.
+
+Scaling issues.
+
+Responsiveness under real data volume.
+
+Repeated-action frustration.
+
+Dashboard overload.
+
+It also pushed me to work much closer to implementation than I had previously, rapidly iterating between UX decisions, visual systems, frontend behavior, data structure, interaction refinement, and usability testing.
+
+Most importantly, it reinforced something I care deeply about as a designer.
+
+Good product design is not just making software usable.
+
+It is reducing mental strain during stressful human experiences.
